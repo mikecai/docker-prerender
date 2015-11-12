@@ -7,7 +7,7 @@ var server = prerender({
 	messageTimeout: process.env.PHANTOM_CLUSTER_MESSAGE_TIMEOUT
     });
 
-//server.use(prerender.removeScriptTags());
+server.use(prerender.removeScriptTags());
 
 //server.use(prerender.inMemoryHtmlCache());
 
