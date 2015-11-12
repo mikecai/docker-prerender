@@ -1,0 +1,12 @@
+dist/
+
+node_modules/
+bower_components/
+
+# Mac desktop service store files
+.DS_Store
+
+# vim swap file
+*.swp
+
+*.orig

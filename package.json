@@ -1,0 +1,18 @@
+{
+  "name": "gurudigger-prerender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express-useragent": "^0.2.0",
+    "prerender": "^3.22.1",
+    "prerender-redis-cache": "^0.1.6",
+    "weak": "^1.0.0"
+  }
+}
