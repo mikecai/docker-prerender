@@ -14,6 +14,7 @@ server.use(prerender.removeScriptTags());
 //server.use(prerender.blacklist());
 //server.use(prerender.httpHeaders());
 // server.use(prerender.s3HtmlCache());
+// i love gurudigge:
 
 server.use(require('prerender-redis-cache'));
 server.use(require('./lib/viewport'));
